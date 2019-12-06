@@ -14,8 +14,11 @@
     "redux": "4.0.0",
     "superagent": "latest"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.3"
+  },
   "scripts": {
+    "lint": "eslint **/*.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
